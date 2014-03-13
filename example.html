@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bootstrap for component sample</title>
+    <link rel="stylesheet" href="./build/build.css" />
+    <script src="./build/build.js"></script>
+  </head>
+  <body>
+    <div class="container">
+        <h2 class="form-signin-heading">Please sign in</h2>
+        <input type="text" class="input-block-level" placeholder="Email address">
+        <input type="password" class="input-block-level" placeholder="Password">
+        <label class="checkbox">
+          <input type="checkbox" value="remember-me"> Remember me
+        </label>
+        <button class="btn btn-large btn-primary" data-loading-text="signing ...">Sign in</button>
+    </div>
+    <script>
+      var $ = require('bootstrap'); // jQuery
+      $('button').on('click', function () {
+        var $button = $(this).button('loading');
+        setTimeout(function () {
+          $button.button('reset');
+        }, 2000);
+      });
+    </script>
+  </body>
+</html>

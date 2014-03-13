@@ -1,0 +1,28 @@
+{
+  "name": "bootstrap",
+  "version": "3.1.1",
+  "repo": "cuusoo/bootstrap",
+  "description": "bootstrap for component",
+  "keywords": [
+    "bootstrap",
+    "component"
+  ],
+  "dependencies": {
+    "cuusoo/jquery": "2.1.0-component"
+  },
+  "development": {},
+  "scripts": [
+    "index.js"
+  ],
+  "styles": [
+    "dist/css/bootstrap.min.css",
+    "dist/css/bootstrap-theme.min.css"
+  ],
+  "fonts": [
+    "dist/fonts/glyphicons-halflings-regular.eot",
+    "dist/fonts/glyphicons-halflings-regular.svg",
+    "dist/fonts/glyphicons-halflings-regular.ttf",
+    "dist/fonts/glyphicons-halflings-regular.woff"
+  ],
+  "license": "MIT"
+}
