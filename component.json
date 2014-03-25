@@ -15,8 +15,7 @@
     "index.js"
   ],
   "styles": [
-    "dist/css/bootstrap.min.css",
-    "dist/css/bootstrap-theme.min.css"
+    "dist/css/bootstrap.min.css"
   ],
   "fonts": [
     "dist/fonts/glyphicons-halflings-regular.eot",
